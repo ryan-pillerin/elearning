@@ -7,7 +7,7 @@ const routes = [
                 path: "",
                 component: () => import("pages/IndexPage.vue"),
                 beforeEnter: (to, from, next) => {
-                    next("/login");
+                    next();
                 },
             },
         ],
